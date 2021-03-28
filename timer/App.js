@@ -1,7 +1,6 @@
 
 import React, {useEffect, useState} from 'react';
 import { StyleSheet, Text, View, KeyboardAvoidingView, TouchableOpacity, TextInput, TouchableWithoutFeedback, Keyboard, Vibration, SafeAreaView } from 'react-native';
-// import {vibrate} from './utils';
 
 
 export default function App() {
