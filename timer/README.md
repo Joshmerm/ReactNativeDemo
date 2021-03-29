@@ -7,16 +7,17 @@ Essentially, you need at minimum two digits.  <br>
 
 
 ## Example
-Do's :heavy_check_mark: <br>
+
+### Do's :heavy_check_mark: <br>
 Minutes: ```25``` <br>
 Seconds: ```00``` <br>
 
-### OR
+##### OR
 
 Minutes: ```01``` <br>
 Seconds: ```08``` <br>
 
-Dont's :x: <br>
+### Dont's :x: <br>
 
 Minutes: ```6``` <br>
 Seconds: ```0``` <br>
