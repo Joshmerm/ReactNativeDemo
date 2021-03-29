@@ -5,7 +5,7 @@ Run Using ```npm start``` or ```expo start``` or ```yarn start```<br>
 For input use ```00``` for zero units, use ```06``` for six units, and use ```10``` for 10 units<br>
 Essentially, you need at minimum two digits.  <br>
 
-### [Expo Demo](https://expo.io/@masterfirey/projects/timer)
+### [Expo Demo](https://expo.io/@masterfirey/projects/timer) (Android Only)
 
 ## Example
 
