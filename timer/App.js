@@ -160,12 +160,12 @@ export default function App() {
 
       <View style={styles.input}>
         <Text style={{fontSize: 20, fontWeight: 'bold'}}>Minutes</Text>
-        <TextInput style={styles.in} maxLength={2} onChangeText={text => setWorkMin(text)} value={workTimerMinutesHolder}/>
+        <TextInput keyboardType={'number-pad'} style={styles.in} maxLength={2} onChangeText={text => setWorkMin(text)} value={workTimerMinutesHolder}/>
       </View>
 
       <View style={styles.input}>
         <Text style={{fontSize: 20, fontWeight: 'bold'}}>Seconds</Text>
-        <TextInput style={styles.in}  maxLength={2} onChangeText={text => setWorkSec(text)} value={workTimerSecondsHolder}/>        
+        <TextInput keyboardType={'number-pad'} style={styles.in}  maxLength={2} onChangeText={text => setWorkSec(text)} value={workTimerSecondsHolder}/>        
       </View>
 
       <Text style={styles.label}>Break Time</Text>
@@ -179,7 +179,7 @@ export default function App() {
 
       <View style={styles.input}>
         <Text style={{fontSize: 20, fontWeight: 'bold'}}>Seconds</Text>
-        <TextInput style={styles.in}  maxLength={2} onChangeText={text => setBreakSec(text)} value={breakTimerSecondsHolder}/>
+        <TextInput keyboardType={'number-pad'} style={styles.in}  maxLength={2} onChangeText={text => setBreakSec(text)} value={breakTimerSecondsHolder}/>
       </View>
 
       </View>
